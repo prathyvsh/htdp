@@ -1,3 +1,13 @@
+Metadata
+========
+Start Date : 5 June 2014
+End Date : 6 June 2014
+
+Pomodoros Spent
+==============
+Textwork : 3.5
+Exercises : 2
+
 Select Exercises
 ================
 
