@@ -6,9 +6,9 @@ Answers to exercises from [HtDP](http://htdp.org/2003-09-26/Book/curriculum-Z-H-
 Pomodoro Count
 ==============
 
-Preface: 2
-Section 1: 0.5
-Section 2: 5.5
-Section 3: 2
+- Preface: 2
+- Section 1: 0.5
+- Section 2: 5.5
+- Section 3: [wip]
 
-Total: 10
+**Total: 8**

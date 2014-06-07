@@ -5,8 +5,10 @@ End Date : 6 June 2014
 
 Pomodoros Spent
 ==============
-Textwork : 3.5
-Exercises : 2
+- Textwork : 3.5
+- Exercises : 2
+
+**Total: 5.5**
 
 Select Exercises
 ================
