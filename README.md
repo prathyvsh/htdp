@@ -23,6 +23,7 @@ Pomodoro Count
 - Preface: 2
 - Section 1: 0.5
 - Section 2: 5.5
-- Section 3: [wip]
+- Section 3: 5.5
+- section 4: [wip]
 
 **Total: 8**
