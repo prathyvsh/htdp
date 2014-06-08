@@ -16,6 +16,10 @@ Metadata
 
 **Days elapsed: 4**
 
+###Week 1
+Pomodoros: 21
+
+
 
 Pomodoro Count
 ==============
@@ -24,6 +28,6 @@ Pomodoro Count
 - Section 1: 0.5
 - Section 2: 5.5
 - Section 3: 5.5
-- section 4: 5.5[wip]
+- section 4: 7.5[wip]
 
-**Total: 19**
+**Total: 21**
