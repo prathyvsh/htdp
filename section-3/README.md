@@ -8,7 +8,7 @@ Pomodoros Spent
 ==============
 
 - Textwork: 1
-- Exercises: 4
+- Exercises: 4.5
   - 3.1.1 3.1.2 (1)
   - 3.1.3 3.1.4 (1)
   - 3.2.1 3.3.1 (1)
