@@ -1,5 +1,5 @@
-How to Design Programs Exercises
-================================
+Learning How to Design Programs
+===============================
 
 Answers to [HtDP](http://htdp.org/2003-09-26/Book/curriculum-Z-H-1.html)
 exercises.
