@@ -21,5 +21,5 @@ Select Exercises
   Comments: Gives a basic understanding of how modules fit in a bigger
 scheme of things.
   - **[Part II](http://htdp.org/2003-09-26/Book/curriculum-Z-H-8.html#node_thm_5.1.3)**
-Comments: Lets you reuse the convert3 functionality from [Ex 2.2.4]() and the previous exercise [Ex 5.1.2]() developed earlier in the book. This gives you a sense of achievement that
+Comments: Lets you reuse the convert3 functionality from [Ex 2.2.4](https://github.com/Prathyvsh/how-to-design-programs/blob/master/section-2/exercises/ex-2-2-4.scm) and the previous exercise [Ex 5.1.2](https://github.com/Prathyvsh/how-to-design-programs/blob/master/section-5/exercises/ex-5-1-2.scm) developed earlier in the book. This gives you a sense of achievement that
 the building blocks you make can be fitted together.
