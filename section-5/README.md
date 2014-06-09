@@ -7,12 +7,19 @@ Metadata
 Pomodoros Spent
 ==============
 
-Textwork: 0.5
+- Textwork: 0.5
+- Exercises:
+5.1.1 5.1.2 (1)
+5.1.3 5.1.4 5.1.5 (1)
 
-**Total: 0.5**
+**Total: 2.5**
 
 Select Exercises
 ================
-[Interval translation](http://htdp.org/2003-09-26/Book/curriculum-Z-H-7.html#node_thm_4.2.1)
-**[Credit Card Payback](http://htdp.org/2003-09-26/Book/curriculum-Z-H-7.html#node_thm_4.4.3)**
-Comments: Best one that teaches modularity so far.
+- Guessing Game
+  - [Part I](http://htdp.org/2003-09-26/Book/curriculum-Z-H-8.html#node_thm_5.1.2)
+  Comments: Gives a basic understanding of how modules fit in a bigger
+scheme of things.
+  - [Part II](http://htdp.org/2003-09-26/Book/curriculum-Z-H-8.html#node_thm_5.1.3)
+Comments: Lets you reuse the convert3 functionality from [Ex 2.2.4]() and the previous exercise [Ex 5.1.2]() developed earlier in the book. This gives you a sense of achievement that
+the building blocks you make can be fitted together.
