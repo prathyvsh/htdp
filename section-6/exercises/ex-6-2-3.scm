@@ -11,7 +11,6 @@
 (define Y-GREEN (+ Y-YELLOW BULB-DISTANCE (* 2 BULB-RADIUS)))
 
 
-(start WIDTH HEIGHT)
 
 ;; draw-bulb : symbol -> boolean
 ;; Draws the light of given color
@@ -22,6 +21,7 @@
     [(symbol=? bulb 'green) (draw-solid-disk (make-posn X-BULBS Y-GREEN) BULB-RADIUS 'green)]))
 
 ;; TESTS
+(start WIDTH HEIGHT)
 (draw-bulb 'red)
 (draw-bulb 'yellow)
 (draw-bulb 'green)

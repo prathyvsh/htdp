@@ -40,10 +40,22 @@
   (and (clear-bulb from)
        (draw-bulb to)))
 
-;; TESTS
+;; next : symbol  ->  symbol
+;; to switch a traffic light's current color and to return the next one 
+(define (next current-color)
+  (cond
+    [(and (symbol=? current-color 'red) (switch 'red 'green))
+     'green]
+    [(and (symbol=? current-color 'yellow) (switch 'yellow 'red))
+     'red]
+    [(and (symbol=? current-color 'green) (switch 'green 'yellow))
+     'yellow]))
+
+
+;; draw the light with red bulb turned on
 (start WIDTH HEIGHT)
-(clear-bulb 'red)
-(clear-bulb 'yellow)
-(draw-bulb 'green)
-(switch 'green 'yellow)
-(switch 'yellow 'red)
+(draw-bulb 'red)
+(next 'red)
+(next 'green)
+(next 'yellow)
+(next 'red)

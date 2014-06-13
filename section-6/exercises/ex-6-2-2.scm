@@ -10,11 +10,6 @@
 (define Y-YELLOW (+ Y-RED BULB-DISTANCE (* 2 BULB-RADIUS)))
 (define Y-GREEN (+ Y-YELLOW BULB-DISTANCE (* 2 BULB-RADIUS)))
 
-;; draw the light with the red bulb turned on
-(start WIDTH HEIGHT)
-(draw-solid-disk (make-posn X-BULBS Y-RED) BULB-RADIUS 'red)
-(draw-solid-disk (make-posn X-BULBS Y-YELLOW) BULB-RADIUS 'yellow)
-(draw-solid-disk (make-posn X-BULBS Y-GREEN) BULB-RADIUS 'green)
 
 ;; clear-bulb : symbol -> boolean
 ;; clears the light of the given location
@@ -32,4 +27,8 @@
           (draw-circle (make-posn X-BULBS Y-GREEN) BULB-RADIUS 'green))]))
 
 ;; TESTS
+(start WIDTH HEIGHT)
+(draw-solid-disk (make-posn X-BULBS Y-RED) BULB-RADIUS 'red)
+(draw-solid-disk (make-posn X-BULBS Y-YELLOW) BULB-RADIUS 'yellow)
+(draw-solid-disk (make-posn X-BULBS Y-GREEN) BULB-RADIUS 'green)
 (clear-bulb 'green)
