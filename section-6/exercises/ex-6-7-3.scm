@@ -19,7 +19,6 @@
 (define left-leg-end (make-posn (+ ARM-LENGTH (posn-x arm-start)) (+ (posn-y leg-start) LEG-SLANT)))
 (define right-leg-end (make-posn (- (posn-x arm-start) ARM-LENGTH) (posn-y left-leg-end)))
 
-;; AUXILARY FUNCTIONS
 ;; circle is a structure
 ;; make-circle position number symbol
 (define-struct circle (center radius color))
@@ -66,13 +65,44 @@
   [(symbol=? organ 'left-leg) (draw-limb leg-start left-leg-end)]
   [(symbol=? organ 'right-leg) (draw-limb leg-start right-leg-end)]
   ))
+;; word3 is a structure:
+;; (make-word3 number number number)
+(define-struct word (first second third))
+
+;; TEMPLATE
+;(define (reveal chosen status guess)
+;... (word-first chosen) ... (word-first status) ...
+;... (word-second chosen) ... (word-second status) ...
+;... (word-third chosen) ... (word-third status) ...)
+
+;; First Approach (Failed)
+(define (reveal-first chosen status guess)
+  (cond
+    [(symbol=? (word-first chosen) guess) (make-word guess (word-second status) (word-third status))]
+    [(symbol=? (word-second chosen) guess) (make-word (word-first status) guess (word-third status))]
+    [(symbol=? (word-third chosen) guess) (make-word (word-first status) (word-third status) guess)]
+    [else status]))
+
+;; compare-letter symbol symbol symbol -> symbol
+;; Return the guess if it is same as chosen otherwise, returns status
+(define (compare-letter chosen status guess)
+  (cond
+  [(symbol=? chosen guess) guess]
+  [else status]))
+
+;; Second Approach
+;; reveal symbol symbol symbol -> symbol
+;; Returns a word with correctly guessed characters in chosen word
+(define (reveal chosen status guess)
+  (make-word (compare-letter (word-first chosen) (word-first status) guess)
+             (compare-letter (word-second chosen) (word-second status) guess)
+             (compare-letter (word-third chosen) (word-third status) guess)))
 
 ;; TESTS
-(start 200 200)
-(draw-next-part 'noose)
-(draw-next-part 'head)
-(draw-next-part 'body)
-(draw-next-part 'left-arm)
-(draw-next-part 'right-arm)
-(draw-next-part 'left-leg)
-(draw-next-part 'right-leg)
+;(reveal (make-word 't 'e 'a) (make-word '_ 'e '_) 'u)
+;(reveal (make-word 'a 'l 'e) (make-word 'a '_ '_) 'e)
+;(reveal (make-word 'a 'l 'l) (make-word '_ '_ '_) 'l)
+
+;; PROGRAM
+(start 300 300)
+(hangman make-word reveal draw-next-part)
