@@ -9,12 +9,12 @@ Also includes open sourced metrics of textual reading and exercise solving times
 
 #Metadata
 - Start date : 4 June 2014
-- Last update : 14 June 2014
-- **Days elapsed: 10**
+- Last update : 15 June 2014
+- **Days elapsed: 11**
 
 _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 
-##Pomodoro Count: 39
+##Pomodoro Count: 44
 
 - Preface: 2
 - Section 1: 0.5
@@ -23,7 +23,8 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - Section 4: 8
 - Section 5: 2.5
 - Section 6: 14.5
-- Section 7: 0.5[wip]
+- Section 7: 5.5
+- Section 8: [wip]
 
 ###Daily Breakdown (2014)
 - 4 June - 2
@@ -36,11 +37,12 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - 11 June - 
 - 12 June - 1
 - 13 June - 7
-- 14 June - 2
+- 14 June - 4
+- 15 June - 3
 
 ###Weekly Breakdown
 ####Week 1
 Pomodoros: 29
 
 ####Week 2
-Pomodoros: 10
+Pomodoros: 15
