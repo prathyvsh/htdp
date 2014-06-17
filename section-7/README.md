@@ -19,5 +19,6 @@ Pomodoros Spent
 
 Select Exercises
 ================
-[Moving Shapes]To understand how relatively large bodies of code work
-together to perform a feat (http://htdp.org/2003-09-26/Book/curriculum-Z-H-10.html#node_thm_7.4.6)
+[Moving Shapes](http://htdp.org/2003-09-26/Book/curriculum-Z-H-10.html#node_thm_7.4.6)
+To understand how relatively large bodies of code work
+together to perform a feat.

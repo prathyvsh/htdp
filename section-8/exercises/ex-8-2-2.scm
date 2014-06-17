@@ -1,3 +1,4 @@
+#|
 ( define ( non-empty sequence of variables ) an expression )
 
 1. (define (f x) x)
@@ -14,3 +15,4 @@ Doesn't fit the format: ( define ( non-empty sequence of variables ) an expressi
 Doesn't fit the format: ( define ( non-empty sequence of variables ) an expression ) since (x) is not a valid expression.
 3. (define (f) 10) 
 Doesn't fit the format: ( define ( non-empty sequence of variables ) an expression ) since (f) is a malformed expression not a set of variables.
+|#
