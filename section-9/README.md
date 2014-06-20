@@ -7,8 +7,8 @@ Metadata
 Pomodoros Spent
 ==============
 
-- Textwork: 0.5 + 0.5 + 1
-- Exercises: 1
+- Textwork: 0.5 + 0.5 + 1 + 0.5
+- Exercises: 6.5
   - 9.1.1 9.1.2 9.1.3 (1)
   - 9.1.4 (0.5)
   - 9.2.1 9.2.2 9.2.3 (0.5)
@@ -19,7 +19,7 @@ Pomodoros Spent
   - 9.5.6 9.5.7 (0.5)
   - 9.5.8 (1)
 
-**Total: 8**
+**Total: 9**
 
 Select Exercises
 ================
