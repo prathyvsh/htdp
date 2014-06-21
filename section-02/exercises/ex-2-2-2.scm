@@ -1,4 +1,4 @@
-;dollar to euro: number -> number
+;dollar->euro: number -> number
 ;Converts dollar to euro
 ;Uses rates on 6 June 2014
 ;Source: http://oanda.com

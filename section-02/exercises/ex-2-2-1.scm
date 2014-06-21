@@ -1,4 +1,4 @@
-;Fahrenheit to Celsius : number -> number
+;Fahrenheit->Celsius : number -> number
 ;Converts fahrenheit given to celsius equivalent
 (define (Fahrenheit->Celsius fht)
   (* (/ 5 9) (- fht 32)))
