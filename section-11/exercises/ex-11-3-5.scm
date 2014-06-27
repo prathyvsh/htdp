@@ -37,7 +37,7 @@
   (and (draw-horizontal-lines row-count canvas-size (/ canvas-size row-count))
        (draw-vertical-lines column-count canvas-size (/ canvas-size column-count))))
 
-;; draw-horizontal-lines posn posn -> true
+;; draw-horizontal-lines number number number -> true
 ;; Draws set of horizontal-lines of given count that spans canvas-size and is set div-size apart
 (define (draw-horizontal-lines count canvas-size div-size)
   (cond
@@ -47,7 +47,7 @@
                (draw-horizontal-lines (sub1 count) canvas-size div-size))]))
 
 
-;; draw-vertical-line posn posn -> true
+;; draw-vertical-line number number number -> true
 ;; Draws set of horizontal-lines of given count that spans canvas-size and is set div-size apart
 (define (draw-vertical-lines count canvas-size div-size)
   (cond
