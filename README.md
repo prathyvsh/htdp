@@ -76,3 +76,11 @@ Pomodoros: 22
 
 ####Week 4
 Pomodoros: 33
+
+####Aims
+Section 19 by 7th July (35 Pomodoros)
+Section 24 by 14th July (35 Pomodoros)
+Section 29 by 21 July (35 Pomodoros)
+Section 34 by 28 July (35 Pomodoros)
+Section 39 by 4th August (35 Pomodoros)
+Complete by 11th August (35 Pomodoros)
