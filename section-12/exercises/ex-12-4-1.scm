@@ -12,7 +12,7 @@ empty
 |#
 
 ;; a list-of-word is either
-;; empty or
+;; (cons word empty) or
 ;; (cons word list-of-word)
 
 (define empty-word-list empty)

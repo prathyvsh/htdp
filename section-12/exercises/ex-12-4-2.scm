@@ -6,46 +6,25 @@
     [else (insert-everywhere/in-all-words (first a-word) 
             (arrangements (rest a-word)))]))
 
-;;b -> de
-bde
-dbe
-deb
-
-;;b -> ed
-bed
-ebd
-edb
-
-
 ;; insert-everywhere : letter list-of-words -> list-of-words
 ;; to create a list of words with letter inserted between all
 ;; letters of the word
-The result is a list of words like its second argument, but with the first argument inserted between all letters and at the beginning and the end of all words of the second argument.
-
-;a -> ([]) : ([a, []], ([]))
-;b -> ([a, []]) : ([b + [a, []], (a + b -> ([])))
-;c -> ([b, [a, []]]) : ([c, [b, [a, []]]]), [b] + c -> ([a, []])
-
-
 (define (insert-everywhere/in-all-words letter word-list)
   (cond
-    [(empty? word-list) (cons empty empty)]
-    [else (cond
-            [(empty? (first word-list)) (append (cons (cons letter empty) empty)
-                                                (insert-everywhere/in-all-words (rest word-list)))]
-            [(else (append (cons (prepend letter (first word-list)) empty)
-                           (prepend (first (first word-list))
-                                    (insert-everywhere/in-all-words letter (rest word-list)))))])]))
+    [(empty? word-list) empty]
+  [else (append (insert-everywhere empty letter (first word-list))
+                (insert-everywhere/in-all-words letter (rest word-list)))]))
 
-
-;; insert-before : letter word -> list-of-word
-;; Creates a list of words with letter inserted before every letter
-(define (insert-before-all letter word)
+;; insert-everywhere : empty symbol word -> list-of-word
+;; Returns a list of words with symbol inserted at every location of the
+;; word
+(define (insert-everywhere start letter end)
   (cond
-    [(empty? word) (cons letter empty)]
+    [(empty? end) (cons (append start (cons letter empty) end) empty)]
     [else (append
-            (cons letter (first word) empty)
-            (cons letter (insert-before-all letter (rest word))))]))
+           (cons (append start (cons letter empty) end) empty)
+           (insert-everywhere (append start (cons (first end) empty)) letter (rest end)))]))
+
 
 ;; TESTS
-;;(arrangements (cons 'a (cons 'n (cons 'd empty))))
+(arrangements (cons 'a (cons 'n (cons 'd empty))))
