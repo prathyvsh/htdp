@@ -21,4 +21,3 @@
     [(empty? word) (list prefix)]
     [else (append (list (append prefix word))
                   (insert-front (append (list (first word)) prefix) (rest word)))]))
-
