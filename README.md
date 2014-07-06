@@ -9,12 +9,12 @@ Also includes open sourced metrics of textual reading and exercise solving times
 
 #Metadata
 - Start date : 4 June 2014
-- Last update : 2 July 2014
-- **Days elapsed: 29**
+- Last update : 6 July 2014
+- **Days elapsed: 33**
 
 _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 
-##Pomodoro Count: 121
+##Pomodoro Count: 134
 
 - Preface: 2
 - Section 1: 0.5
@@ -30,7 +30,8 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - Section 11: 15.5
 - Section 12: 23
 - Section 13: 1.5
-- Section 14: 12.5[wip]
+- Section 14 : 13
+- Section 15 : 12.5[WIP]
 
 ###Daily Breakdown (2014)
 - 4 June - 2
@@ -67,7 +68,10 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 
 - 2 July - 3
 - 3 July - 6
-- 4 July - 1
+- 4 July - 3
+- 5 July - 8
+- 6 July - 3
+
 
 ###Weekly Breakdown
 ####Week 1
@@ -83,32 +87,34 @@ Pomodoros: 22
 Pomodoros: 39
 
 ####Week 5
-Pomodoros: 10
+Pomodoros: 23
 
 ####Aims
 
-6 Pomodoros per day
-6 Working Days
-10 Pages per day
-60 Pages per week
-360 pages by 6 weeks
-Current page status: 180
+- 6 Pomodoros per day
+- 6 Working Days
+
+- 10 Pages per day
+- 60 Pages per week
+- 360 pages by 6 weeks
+- Current page status: 188
 
 1 - 7 Jul
 #####Section 19 by 7th July
 Target : 228 Pages in 35 Pomodoros
 
 *Prediction :*
-Section 14 - 20 Questions
-3(before 1 July) + (6 after)
-12/18 Pomodoros
-Section 15 - 8 Questions
-6 Pomodoros
-Section 16 - 10 Questions
-8 Pomodoros
-Section 17 - 29 Questions
-24 Pomodoros
-Section 18 - 10 Questions
+  - Section 14 - 20 Questions
+  3(before 1 July) + (10 after)
+  13/18 Pomodoros
+
+  - Section 15 - 8 Questions
+  11.5/6 Pomodoros
+  - Section 16 - 10 Questions
+  8 Pomodoros
+  - Section 17 - 29 Questions
+  24 Pomodoros
+  - Section 18 - 10 Questions
 8 Pomodoros
 
 18 + 6 + 8 + 24 + 8 = 64 Pomodoros
@@ -118,9 +124,12 @@ Section 18 - 10 Questions
 
 #####Section 29 by 21 July
 35 Pomodoros/348 Pages
+
 #####Section 34 by 28 July
 35 Pomodoros/408 Pages
+
 #####Section 39 by 4th August (35 Pomodoros)
 35 Pomodoros/468 Pages
+
 #####Complete by 11th August (35 Pomodoros)
 35 Pomodoros/548 Pages
