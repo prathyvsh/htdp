@@ -44,6 +44,7 @@
     [else v1]))
 
 ;; search-in-document : symbol web-document -> list-of-symbols or boolean
+;; Searches for symbol in the given wd
 (define (search-in-document symbol wd)
   (cond
     [(empty? wd) false]
@@ -51,7 +52,6 @@
                             [(symbol=? symbol (first wd)) empty]
                             [else (search-in-document symbol (rest wd))])]
     [else (backtrack (find symbol (first wd)) (search-in-document symbol (rest wd)))]))
-    
 
 ;; TESTS
 (define wp0 (make-wp 'empty empty))

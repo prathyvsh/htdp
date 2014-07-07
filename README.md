@@ -14,7 +14,7 @@ Also includes open sourced metrics of textual reading and exercise solving times
 
 _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 
-##Pomodoro Count: 134
+##Pomodoro Count: 137
 
 - Preface: 2
 - Section 1: 0.5
@@ -31,7 +31,8 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - Section 12: 23
 - Section 13: 1.5
 - Section 14 : 13
-- Section 15 : 12.5[WIP]
+- Section 15 : 12.5
+- Section 16 : 5[wip]
 
 ###Daily Breakdown (2014)
 - 4 June - 2
@@ -70,8 +71,8 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - 3 July - 6
 - 4 July - 3
 - 5 July - 8
-- 6 July - 3
-
+- 6 July - 5
+- 7 July - 3
 
 ###Weekly Breakdown
 ####Week 1
@@ -87,7 +88,7 @@ Pomodoros: 22
 Pomodoros: 39
 
 ####Week 5
-Pomodoros: 23
+Pomodoros: 26
 
 ####Aims
 
@@ -97,7 +98,7 @@ Pomodoros: 23
 - 10 Pages per day
 - 60 Pages per week
 - 360 pages by 6 weeks
-- Current page status: 188
+- Current page status: 197
 
 1 - 7 Jul
 #####Section 19 by 7th July
@@ -106,18 +107,18 @@ Target : 228 Pages in 35 Pomodoros
 *Prediction :*
   - Section 14 - 20 Questions
   3(before 1 July) + (10 after)
-  13/18 Pomodoros
+  (13/18 Pomodoros)
 
   - Section 15 - 8 Questions
-  11.5/6 Pomodoros
-  - Section 16 - 10 Questions
-  8 Pomodoros
-  - Section 17 - 29 Questions
-  24 Pomodoros
-  - Section 18 - 10 Questions
-8 Pomodoros
+  (12.5/6 Pomodoros)
 
-18 + 6 + 8 + 24 + 8 = 64 Pomodoros
+  - Section 16 - 10 Questions
+  (5/14 Pomodoros)
+
+  - Section 17 - 29 Questions
+  (0/30 Pomodoros)
+
+18 + 6 + 14 + 30 = 68 Pomodoros
 
 #####Section 24 by 14th July
 35 Pomodoros/288 Pages
