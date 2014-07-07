@@ -17,9 +17,9 @@ Pomodoros Spent
   - 16.3.1 16.3.2 (1)
   - 16.3.3 (1)
   - 16.3.4 (1)
-  - Challenge (1)
+  - Challenge (1.5)
 
-**Total: 6**
+**Total: 6.5**
 
 Select Exercises
 ================

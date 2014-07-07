@@ -9,12 +9,12 @@ Also includes open sourced metrics of textual reading and exercise solving times
 
 #Metadata
 - Start date : 4 June 2014
-- Last update : 6 July 2014
-- **Days elapsed: 33**
+- Last update : 8 July 2014
+- **Days elapsed: 35**
 
 _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 
-##Pomodoro Count: 137
+##Pomodoro Count: 140
 
 - Preface: 2
 - Section 1: 0.5
@@ -32,7 +32,8 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - Section 13: 1.5
 - Section 14 : 13
 - Section 15 : 12.5
-- Section 16 : 5[wip]
+- Section 16 : 6.5
+- Section 17 : 1.5[wip]
 
 ###Daily Breakdown (2014)
 - 4 June - 2
@@ -72,7 +73,8 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - 4 July - 3
 - 5 July - 8
 - 6 July - 5
-- 7 July - 3
+- 7 July - 5
+- 8 July - 1
 
 ###Weekly Breakdown
 ####Week 1
@@ -88,49 +90,43 @@ Pomodoros: 22
 Pomodoros: 39
 
 ####Week 5
-Pomodoros: 26
+Pomodoros: 31
 
-####Aims
+####Current Target Rate
 
-- 6 Pomodoros per day
+- 7 Pomodoros per day
 - 6 Working Days
+- 7 Pages per day
+- 40 Pages per week
 
-- 10 Pages per day
-- 60 Pages per week
-- 360 pages by 6 weeks
-- Current page status: 197
+- Current page status: 200
 
-1 - 7 Jul
-#####Section 19 by 7th July
+First Prediction (60 pages in 36 pomodoros)
+- 7 Jul - 228 Acheived: 200 @ 1 page/pomodoro
+- 14 Jul - 268
+- 21 Jul - 348
+- 28 Jul - 408
+- 4 Aug - 468
+- 11 Aug - 548
+
+Second Prediction (40 pages in 42 pomodoros)
+- 14 Jul - 240
+- 21 Jul - 280
+- 28 Jul - 320
+- 4 Aug - 360
+- 11 Aug - 400
+- 18 Aug - 440
+- 25 Aug - 480
+- 1 Sep - 520
+- 5 Sep - 548
+
 Target : 228 Pages in 35 Pomodoros
+Achieved : 200 Pages in 32 Pomodoros
 
-*Prediction :*
-  - Section 14 - 20 Questions
-  3(before 1 July) + (10 after)
-  (13/18 Pomodoros)
+*Predictions :*
+  - Section 14 - (13/18 Pomodoros)
+  - Section 15 - (12.5/6 Pomodoros)
+  - Section 16 - (6.5/14 Pomodoros)
 
-  - Section 15 - 8 Questions
-  (12.5/6 Pomodoros)
-
-  - Section 16 - 10 Questions
-  (5/14 Pomodoros)
-
-  - Section 17 - 29 Questions
-  (0/30 Pomodoros)
-
-18 + 6 + 14 + 30 = 68 Pomodoros
-
-#####Section 24 by 14th July
-35 Pomodoros/288 Pages
-
-#####Section 29 by 21 July
-35 Pomodoros/348 Pages
-
-#####Section 34 by 28 July
-35 Pomodoros/408 Pages
-
-#####Section 39 by 4th August (35 Pomodoros)
-35 Pomodoros/468 Pages
-
-#####Complete by 11th August (35 Pomodoros)
-35 Pomodoros/548 Pages
+Actual: 32 Pomodoros
+Prediction: 38 Pomodoros
