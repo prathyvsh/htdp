@@ -6,15 +6,14 @@ exercises.
 
 Also includes open sourced metrics of textual reading and exercise solving times.
 
-
 #Metadata
 - Start date : 4 June 2014
-- Last update : 8 July 2014
-- **Days elapsed: 35**
+- Last update : 11 July 2014
+- **Days elapsed: 38**
 
 _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 
-##Pomodoro Count: 140
+##Pomodoro Count: 155
 
 - Preface: 2
 - Section 1: 0.5
@@ -33,7 +32,7 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - Section 14 : 13
 - Section 15 : 12.5
 - Section 16 : 6.5
-- Section 17 : 1.5[wip]
+- Section 17 : 14.5[wip]
 
 ###Daily Breakdown (2014)
 - 4 June - 2
@@ -74,23 +73,20 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - 5 July - 8
 - 6 July - 5
 - 7 July - 5
-- 8 July - 1
+- 8 July - 5
+
+- 9 July - 2
+- 10 July - 5
+- 11 July - 2
 
 ###Weekly Breakdown
-####Week 1
-Pomodoros: 29
 
-####Week 2
-Pomodoros: 21
-
-####Week 3
-Pomodoros: 22
-
-####Week 4
-Pomodoros: 39
-
-####Week 5
-Pomodoros: 31
+- Week 1: 29
+- Week 2: 21
+- Week 3: 22
+- Week 4: 39
+- Week 5: 35
+- Week 6: 9
 
 ####Current Target Rate
 
@@ -99,7 +95,7 @@ Pomodoros: 31
 - 7 Pages per day
 - 40 Pages per week
 
-- Current page status: 200
+- Current page status: 213
 
 First Prediction (60 pages in 36 pomodoros)
 - 7 Jul - 228 Acheived: 200 @ 1 page/pomodoro
@@ -108,6 +104,9 @@ First Prediction (60 pages in 36 pomodoros)
 - 28 Jul - 408
 - 4 Aug - 468
 - 11 Aug - 548
+
+Target : 228 Pages in 35 Pomodoros
+Achieved : 200 Pages in 32 Pomodoros
 
 Second Prediction (40 pages in 42 pomodoros)
 - 14 Jul - 240
@@ -120,13 +119,11 @@ Second Prediction (40 pages in 42 pomodoros)
 - 1 Sep - 520
 - 5 Sep - 548
 
-Target : 228 Pages in 35 Pomodoros
-Achieved : 200 Pages in 32 Pomodoros
-
 *Predictions :*
   - Section 14 - (13/18 Pomodoros)
   - Section 15 - (12.5/6 Pomodoros)
   - Section 16 - (6.5/14 Pomodoros)
+  - Section 17 - (7.5/30 Pomodoros)
 
 Actual: 32 Pomodoros
 Prediction: 38 Pomodoros
