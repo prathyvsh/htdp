@@ -16,7 +16,7 @@ Pomodoros Spent
   - 17.7
   - 17.8
 
-- Exercises: 12.5
+- Exercises: 17.5
   - 17.1.1 17.1.2 (0.5)
   - 17.2.1 17.2.2 (1)
   - 17.3.1 (0.5)
@@ -28,8 +28,8 @@ Pomodoros Spent
   - 17.6.5 (3)
   - 17.6.6 (1)
   - 17.7.1 17.7.2 (1)
-  - 17.7.3
-  - 17.7.4
+  - 17.7.3 (2)
+  - 17.7.4 (4)
   - 17.8.1
   - 17.8.2
   - 17.8.3
@@ -43,7 +43,7 @@ Pomodoros Spent
   - 17.8.11
   - 17.8.12
 
-**Total: 14.5**
+**Total: 19.5**
 
 Select Exercises
 ================
@@ -51,3 +51,6 @@ Select Exercises
 [Hangman](http://htdp.org/2003-09-26/Book/curriculum-Z-H-22.html#node_thm_17.6.2)
 [Hours->Wages](http://htdp.org/2003-09-26/Book/curriculum-Z-H-22.html#node_thm_17.6.3)
 [Gift Picker](http://htdp.org/2003-09-26/Book/curriculum-Z-H-22.html#node_thm_17.6.5) - One of those excellent exercises that really builds your confidence on creating abstractions on top of abstractions.
+[Writing Scheme in Scheme](http://htdp.org/2003-09-26/Book/curriculum-Z-H-22.html#node_thm_17.7.3) and (http://htdp.org/2003-09-26/Book/curriculum-Z-H-22.html#node_thm_17.7.4)
+ - Makes you think about how programs
+work.

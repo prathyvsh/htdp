@@ -8,12 +8,12 @@ Also includes open sourced metrics of textual reading and exercise solving times
 
 #Metadata
 - Start date : 4 June 2014
-- Last update : 11 July 2014
-- **Days elapsed: 38**
+- Last update : 13 July 2014
+- **Days elapsed: 40**
 
 _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 
-##Pomodoro Count: 155
+##Pomodoro Count: 161
 
 - Preface: 2
 - Section 1: 0.5
@@ -32,7 +32,7 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - Section 14 : 13
 - Section 15 : 12.5
 - Section 16 : 6.5
-- Section 17 : 14.5[wip]
+- Section 17 : 20.5[wip]
 
 ###Daily Breakdown (2014)
 - 4 June - 2
@@ -78,6 +78,8 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - 9 July - 2
 - 10 July - 5
 - 11 July - 2
+- 12 July - 2
+- 13 July - 4
 
 ###Weekly Breakdown
 
@@ -86,7 +88,7 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - Week 3: 22
 - Week 4: 39
 - Week 5: 35
-- Week 6: 9
+- Week 6: 15
 
 ####Current Target Rate
 
@@ -123,7 +125,8 @@ Second Prediction (40 pages in 42 pomodoros)
   - Section 14 - (13/18 Pomodoros)
   - Section 15 - (12.5/6 Pomodoros)
   - Section 16 - (6.5/14 Pomodoros)
-  - Section 17 - (7.5/30 Pomodoros)
+  - Section 17 - (14.5/30 Pomodoros)
+  - Section 18 - (0/20 Pomodoros)
 
-Actual: 32 Pomodoros
-Prediction: 38 Pomodoros
+Actual: 46.5 Pomodoros
+Prediction: 68 Pomodoros
