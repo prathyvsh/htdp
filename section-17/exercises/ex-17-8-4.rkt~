@@ -1,0 +1,58 @@
+Error: struct:exn:fail:contract:variable
+
+Ran 9 checks.
+3 of the 9 checks failed.
+
+	check-expect encountered the following error instead of the expected value, #t. 
+   :: contains-same-number: undefined;
+ cannot reference undefined identifier
+ At line (unknown) column (unknown)
+	check-expect encountered the following error instead of the expected value, #t. 
+   :: contains-same-number: undefined;
+ cannot reference undefined identifier
+ At line (unknown) column (unknown)
+	check-expect encountered the following error instead of the expected value, #t. 
+   :: contains-same-number: undefined;
+ cannot reference undefined identifier
+ At line (unknown) column (unknown)
+contains-same-number: undefined;
+ cannot reference undefined identifier
+
+
+
+Expression evaluated was:
+
+
+(require test-engine/racket-tests)
+
+;; contains-same-numbers : list-of-number list-of-numbers -> boolean
+(define (contains-same-numbers alist anotherlist)
+  (and (all-exists alist anotherlist)
+       (all-exists anotherlist alist)))
+
+;; all-exists : list-of-numbers list-of-numbers
+;; Determines if all the number in alist is in anotherlist
+(define (all-exists alist anotherlist)
+  (cond
+   [(empty? alist) true]
+   [else (and (find (first alist) anotherlist)
+	      (all-exists (rest alist) anotherlist))]))
+
+;; find : number list-of-numbers -> boolean
+;; Takes in a number and determines if it occurs in the given list
+(define (find number lon)
+  (cond
+   [(empty? lon) false]
+   [(= number (first lon)) true]
+   [else (find number (rest lon))]))
+
+;; TESTS
+
+;; find
+(check-expect (find 3 '(2 5 52 3)) true)
+(check-expect (find 2 '(3 4 5 6)) false)
+(check-expect (contains-same-numbers '(1 2 3) '(3 2 1)) #t)
+(check-expect (contains-same-numbers '(2 1) '(1 2)) #t)
+(test)
+	      
+
