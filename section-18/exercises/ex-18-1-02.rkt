@@ -9,5 +9,4 @@ y)
 
 3. (local ((define (f x) (+ (* x x) (* 3 x) 14)) (define x 100)
 (define f (f x))) f)
-;; This function is not syntactically legal because the function f is not
-;; being applied to any variable.
+;; The function f is being defined twice.
