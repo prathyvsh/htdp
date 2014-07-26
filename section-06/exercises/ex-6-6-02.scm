@@ -3,7 +3,7 @@
 (define-struct circle (center radius color))
 
 ;; draw-a-circle : circle -> true
-;; Draws a give circle on screen
+;; Draws a given circle on screen
 (define (draw-a-circle c)
   (draw-circle (circle-center c) (circle-radius c) (circle-color c)))
 
