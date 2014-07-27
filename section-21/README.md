@@ -2,7 +2,7 @@ Metadata
 =========
 
 - Start date : 23 July 2014
-- End date : 26 July 2014
+- End date : 27 July 2014
 
 Pomodoros Spent
 ===============
