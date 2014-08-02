@@ -7,39 +7,32 @@ Metadata
 Pomodoros Spent
 ===============
 
-- Textwork: 0
-    - 23.1
-    - 23.2
-    - 23.3
-    - 23.4
-    - 23.5
+- Textwork: 2.5
+- 23.1 (1)
+- 23.2 23.3 (0.5)
+- 23.4 (1)
+- 23.5
 
-- Exercises: 0
-    - 23.1.1
-    - 23.2.1
-    - 23.2.2
-    - 23.2.3
-    - 23.2.4
-    - 23.2.5
-    - 23.3.1
-    - 23.3.2
-    - 23.3.3
-    - 23.3.4
-    - 23.3.5
-    - 23.3.6
-    - 23.3.7
-    - 23.3.8
-    - 23.3.9
-    - 23.4.1
-    - 23.4.2
-    - 23.5.1
-    - 23.5.2
-    - 23.5.3
-    - 23.5.4
-    - 23.5.5
-    - 23.5.6
+- Exercises: 10.5
+- 23.1.1 23.2.1 23.2.2 23.2.3 23.2.4 (1)
+- 23.2.5 23.3.1 23.3.2 23.3.3 23.3.4 (1)
+- 23.3.5 (0.5)
+- 23.3.6 (1)
+- 23.3.7 (1)
+- 23.3.8 23.3.9 (1)
+- 23.4.1 (1)
+- 23.4.2 (2)
+- 23.5.1 23.5.2 (1)
+- 23.5.3 (1)
+- 23.5.4
+- 23.5.5
+- 23.5.6
 
-**Total: 0**
+**Total: 13**
+
 
 Select Exercises
 ================
+- [Integration] Good exercise to understand computation of integration with repetitive computation
+    - [Kepler's Method](http://htdp.org/2003-09-26/Book/curriculum-Z-H-29.html#node_thm_23.4.1)
+    - [Rectangle Division Method](http://htdp.org/2003-09-26/Book/curriculum-Z-H-29.html#node_thm_23.4.1)
