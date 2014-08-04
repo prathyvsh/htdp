@@ -30,10 +30,10 @@
 ;; insert : number list-of-numbers -> list-of-numbers
 ;; to create a list of numbers from n and the numbers on alon
 ;; that is sorted in descending order; alon is already sorted
-(define (insert n aslon)
+(define (insert n alon)
   (cond
-    [(empty? aslon) (cons n empty)]
+    [(empty? alon) (cons n empty)]
     [else (cond
-            [(>= n (first alon)) (cons n aslon)]
-            [(< n (first alon)) (cons (first aslon)
-                                      (insert n (rest aslon)))])]))
+            [(>= n (first alon)) (cons n alon)]
+            [(< n (first alon)) (cons (first alon)
+                                      (insert n (rest alon)))])]))
