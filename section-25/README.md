@@ -24,4 +24,5 @@ Pomodoros Spent
 Select Exercises
 ================
 - [Moving Balls](http://htdp.org/2003-09-26/Book/curriculum-Z-H-32.html#node_thm_25.1.2) Good exercise to get a basic understanding of generative recursion and also make use of the higher order functions taught in the previous chapters.
+- [Quick Sort without duplicates](http://htdp.org/2003-09-26/Book/curriculum-Z-H-32.html#node_thm_25.2.4) Good exercise that warns about the infinite loops in algorithm design.
 - [General Quick Sort](http://htdp.org/2003-09-26/Book/curriculum-Z-H-32.html#node_thm_25.2.6) Generalizing a Quick sort function to accomodate other types of lists.
