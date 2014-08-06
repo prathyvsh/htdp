@@ -8,12 +8,12 @@ Also includes open sourced metrics of textual reading and exercise solving times
 
 #Metadata
 - Start date : 4 June 2014
-- Last update : 5 August 2014
-- **Days elapsed: 63**
+- Last update : 7 August 2014
+- **Days elapsed: 64**
 
 _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 
-##Pomodoro Count: 256
+##Pomodoro Count: 268
 
 - Preface: 2
 - Section 1: 0.5
@@ -41,7 +41,7 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - Section 23 : 14.5
 - Section 24 : 1.5
 - Section 25 : 7.5
-- Section 26 : 8.5
+- Section 26 : 20.5
 
 ###Partwise Breakdown
 
@@ -49,7 +49,7 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - Part 2 : 60.5
 - Part 3 : 76.5
 - Part 4 : 55
-- Part 5 : 16
+- Part 5 : 28
 
 ###Daily Breakdown (2014)
 
@@ -123,7 +123,10 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - 2 August - 6
 - 3 August - 7
 - 4 August - 5
-- 5 August - 8
+- 5 August - 9
+
+- 6 August - 6
+- 7 August - 5
 
 ###Weekly Breakdown
 
@@ -135,54 +138,5 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - Week 6: 19
 - Week 7: 26
 - Week 8: 36
-- Week 9: 29
-
-####Current Target Rate
-
-- 7 Pomodoros per day
-- 6 Working Days
-- 7 Pages per day
-- 40 Pages per week
-
-- Current page status: 265
-
-First Prediction (60 pages in 36 pomodoros)
-- 7 Jul - 228 Acheived: 200 @ 1 page/pomodoro
-- 14 Jul - 268
-- 21 Jul - 348
-- 28 Jul - 408
-- 4 Aug - 468
-- 11 Aug - 548
-
-Target : 228 Pages in 35 Pomodoros
-Achieved : 200 Pages in 32 Pomodoros
-
-Second Prediction (40 pages in 42 pomodoros)
-- 14 Jul - 240
-- 21 Jul - 280
-- 28 Jul - 320
-- 4 Aug - 360
-- 11 Aug - 400
-- 18 Aug - 440
-- 25 Aug - 480
-- 1 Sep - 520
-- 5 Sep - 548
-
-*Predictions :*
-
-**Section 3**
-- Section 14 - (13/18 Pomodoros)
-- Section 15 - (12.5/6 Pomodoros)
-- Section 16 - (6.5/14 Pomodoros)
-- Section 17 - (29.5/30 Pomodoros)
-- Section 18 - (15.5/20 Pomodoros)
-(76/88)
-
-**Section 4**
-- Section 19 - (6/6 Pomodoros)
-- Section 20 - (3/8 Pomodoros)
-- Section 21 - (17/7 Pomodoros)
-- Section 22 - (12/8 Pomodoros)
-- Section 23 (14.5/8 Pomodoros)
-- Section 24 (0/2 Pomodoros)
-(26/39)
+- Week 9: 30
+- Week 10: 11
