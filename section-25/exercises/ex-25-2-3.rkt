@@ -4,12 +4,13 @@
 ;; insertion-sort : list-of-numbers -> list-of-numbers
 ;; to create a sorted list of numbers from all the numbers in alon
 (define (insertion-sort alon)
-  (reverse (i-sort alon)))
-
+  (local (
 (define (i-sort alon)
   (cond
    [(empty? alon) empty]
-   [else (insert (first alon) (i-sort (rest alon)))]))
+   [else (insert (first alon) (i-sort (rest alon)))])))
+  (reverse (i-sort alon))))
+
 
 ;; insert : number list-of-numbers -> list-of-numbers
 ;; to create a list of numbers from n and the numbers on alon
@@ -22,7 +23,7 @@
           [(< n (first alon)) (cons (first alon)
                                     (insert n (rest alon)))])]))
 ;; TESTS
-(insertion-sort (list 2 2 5 8 2 1 3 3 4))
+(equal? (insertion-sort (list 2 2 5 8 2 1 3 3 4)) (list 1 2 2 2 3 3 4 5 8))
 
 
 ;; quick-sort : (listof number)  ->  (listof number)
@@ -61,5 +62,5 @@
              (smaller-items (rest alon) threshold))]))
 
 ;; TESTS
-(combined-quick-sort 3 (list 3 2 32 24 332))
-(combined-quick-sort 8 (list 8 9 12 3 2 32 24 332))
+(equal? (combined-quick-sort 3 (list 3 2 32 24 332)) (list 2 3 24 32 332))
+(equal? (combined-quick-sort 8 (list 8 9 12 3 2 32 24 332)) (list 2 3 8 9 12 24 32 332))

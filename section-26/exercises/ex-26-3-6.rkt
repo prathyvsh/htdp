@@ -1,6 +1,6 @@
 #lang racket
 
-;; sort : list-of-numbers -> list-of-numbers
+;; insertion-sort : list-of-numbers -> list-of-numbers
 ;; to create a sorted list of numbers from all the numbers in alon
 (define (insertion-sort alon)
   (local ((define (insert n alon)
