@@ -4,7 +4,7 @@
 ;; trapezoid-area : number number number -> number
 ;; Computes the area of a trapezoid with the given dimensions
 (define (trapezoid-area base1 base2 height)
-  (* (/ (+ base1 base2) 2) height))
+  (abs (* (/ (+ base1 base2) 2) height)))
 
 ;; integrate-kepler -> (number -> number) number number -> number
 ;; Computing integration using Kepler's method

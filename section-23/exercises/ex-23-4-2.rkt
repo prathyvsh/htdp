@@ -18,7 +18,7 @@
                     (define step (/ width 2))
                     (define mid-term (+ a (* i width) step))
                     (define f-at-mid (fn mid-term))
-                    (define area (* width f-at-mid)))
+                    (define area (abs (* width f-at-mid))))
               area)))
     (series (- R 1) ith-rectangle-area)))
 
@@ -35,5 +35,5 @@
 (integrate square 0 1)
 (integrate square 2 4)
 
-(integrate sin 0 1) ; On adjusting R the
-                    ;function becomes 
+(integrate sin 0 1) ; On increasing R, the function
+                    ; seemingly becomes more accurate
