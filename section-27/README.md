@@ -40,3 +40,4 @@ Select Exercises
 - [Recursive Savannah Tree] (http://htdp.org/2003-09-26/Book/curriculum-Z-H-34.html#node_thm_27.1.5) Practicable both for it's aesthetic and knowledge value.
 - [Bezier Drawing] (http://htdp.org/2003-09-26/Book/curriculum-Z-H-34.html#node_thm_27.1.5) A good insight on how beziers can be drawn with recursive triangles.
 - [Table Root Finding] Hones your skill to develop divide and conquer algorithms.
+- [Gaussian Elimination] Pretty rigorous exercise aimed at making 
