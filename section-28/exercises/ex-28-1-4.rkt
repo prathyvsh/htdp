@@ -62,11 +62,13 @@
 (define (all-routes g)
   (all-possible-permutations (get-all-nodes g)))
 
+#|
 ;; test-on-all-nodes : graph -> (listof (listof node))
 ;; Tests routing between all nodes on the given graph
 (define (test-on-all-nodes g)
 (map (lambda (x) (find-route (first x) (second x) g)) (all-routes g)))
 
+|#
 
 ;; Simplified
 ;; test-on-all-nodes : graph -> (listof (listof node))
