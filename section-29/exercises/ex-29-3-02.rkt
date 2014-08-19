@@ -107,8 +107,6 @@
 
 (define Graph-List '((A (B E)) (B (E F)) (C (D)) (D ()) (E (C F)) (F (D G)) (G ())))
 
-(define cyclic-graph
-  (vector '(1 4) '(4 5) '(1 3) '() '(2 5) '(4 6) '()))
 
 #|
 (equal? (get-all-nodes-vec Graph) '(0 1 2 3 4 5 6))
@@ -128,4 +126,3 @@
 
 (collect-garbage)
 (time (first (build-list 100000 (lambda (x) (find-route-vec 0 4 Graph)))))
-
