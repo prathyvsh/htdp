@@ -13,7 +13,7 @@ Also includes open sourced metrics of textual reading and exercise solving times
 
 _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 
-##Pomodoro Count: 339
+##Pomodoro Count: 340
 
 - Preface: 2
 - Section 1: 0.5
@@ -45,7 +45,7 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - Section 27 : 30
 - Section 28 : 19
 - Section 29 : 12
-- Section 30 : 2.5
+- Section 30 : 3.5
 - Section 31 : 7.5
 
 ###Partwise Breakdown
@@ -54,7 +54,7 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - Part 2 : 60.5
 - Part 3 : 76.5
 - Part 4 : 55
-- Part 5 : 99
+- Part 5 : 100
 
 ###Daily Breakdown (2014)
 
