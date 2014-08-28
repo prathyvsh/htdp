@@ -1,4 +1,5 @@
 #lang racket
+(require lang/htdp-intermediate-lambda)
 
 ;; ! : N  ->  N
 ;; to compute n  ·  (n - 1)  ·  ...  ·  2  ·  1
@@ -21,7 +22,8 @@
 ;; many : N (N  ->  N)  ->  true
 ;; to evaluate (f 20) n times 
 (define (many n f)
-  (first (build-list n (lambda(x) (f 20)))))
+  (cond [(zero? n) true]
+        [else (and (= (f 20) 2432902008176640000) (many (sub1 n) f))]))
 
 
 (collect-garbage)
