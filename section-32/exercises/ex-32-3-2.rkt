@@ -7,10 +7,16 @@
 ;; A solitaire board is:
 ;;(listof (listof peg))
 
-(define BOARD-SIZE 4)
+;; A move is
+;; (make-move posn posn posn)
+(define-struct move (from over to))
 
+(define BOARD-SIZE 5)
+
+;; build-board : number (number -> X) -> (vectorof (vectorof X))
+;; Creates a board with the given function
 (define (build-board size f)
-  ;;build-pyramid : number number -> (listof (listof number))
+  ;;build-pyramid : number number -> (vectorof (listof X))
   (local ((define (build-pyramid m n)
             (local ((define (build-row n)
                       (cond
@@ -21,14 +27,20 @@
              [else (vector-append (vector (build-row n)) (build-pyramid (add1 m) n))]))))
     (build-pyramid 0 0)))
 
-;; board-ref : number number board -> peg
-(define (board-ref i j b)
-  (vector-ref (vector-ref b i) j))
+;; board-ref : posn board -> peg
+;; References a given position on the board
+(define (board-ref m b)
+  (vector-ref (vector-ref b (posn-x m)) (posn-y m)))
 
 ;; occupied? : posn board -> boolean
 ;; Determines if the peg at the given location is occupied
 (define (occupied? peg-posn b)
-  (= (board-ref (posn-x peg-posn) (posn-y peg-posn) b) 1))
+  (= (board-ref peg-posn b) 1))
+
+;; free? : posn board -> boolean
+;; Determines if the peg at the given location is free
+(define (free? peg-posn b)
+  (not (occupied? peg-posn b)))
 
 ;; legal-location? : posn -> boolean
 ;; Determines if the given location is legal in the board
@@ -36,21 +48,21 @@
   (and (<= 0 (posn-x peg-posn) (sub1 BOARD-SIZE))
        (<= 0 (posn-y peg-posn) (posn-x peg-posn))))
 
-;; free? : posn board -> boolean
-;; Determines if the peg at the given location is free
-(define (free? peg-posn b)
-  (not (occupied? peg-posn b)) )
+;; legal-move? : move -> boolean
+;; Checks if the given move is legal.
+(define (legal-move? move)
+  (and (legal-location? (move-from move))
+       (legal-location? (move-to move))))
 
 ;; jump-space? : posn posn board -> boolean
 ;; Determines if the peg can jump to the given posn2
-(define (jump-space? posn1 posn2 b)
-  (and (legal-location? posn1) (legal-location? posn2) (occupied? posn1 b) (free? posn2 b)))
+(define (jump-space? move b) (and (legal-move? move) (occupied? (move-from move) b)
+                                  (occupied? (move-over move) b)
+                                  (free? (move-to move) b)))
 
-;; all-neighbours : posn -> (listof posn)
-;; Neighbours of a peg are all the adjacent
-;; elements but the right diagonal.
-(define (all-jump-pairs peg-posn)
-  (gen-locations peg-posn))
+;; all-neighbours : posn -> (listof move)
+;; Gives back all moves possible from the given location
+(define (all-moves peg-posn) (gen-locations peg-posn))
 
 ;; gen-locations: number number number posn -> (listof (listof posn posn))
 ;; Generates a table from [start,end] sans it's right diagonal
@@ -65,7 +77,7 @@
                          [(> x end) empty]
                          [(> y end) (generate (add1 x) start)]
                          [(= (- x) y) (generate x (add1 y))]
-                         [else (cons (list (make-posn (+ row x) (+ col y))
+                         [else (cons (make-move peg-posn (make-posn (+ row x) (+ col y))
                                            (make-posn (+ row (* 2 x)) (+ col (* 2 y))))
                                      (generate x (add1 y)))]))))
               (generate start start))))
@@ -78,33 +90,38 @@
 ;; enabled-peg? : board posn -> posn/boolean
 ;; Determines if the given peg is enabled
 (define (enabled-peg? peg-posn board)
-  (local ((define all-locations (all-jump-pairs peg-posn))
+  (local ((define all-locations (all-moves peg-posn))
           ;; Moves through the adjacents and moves and
           ;; determines if a peg is enabled.
           ;; ASSUMPTION: adj and mov are of the same length.
           (define (enabled? moves)
             (cond
              [(or (empty? moves) (free? peg-posn board)) false]
-             [(jump-space? (first (first moves)) (second (first moves)) board) (first moves)]
+             [(jump-space? (first moves) board) (first moves)]
              [else (enabled? (rest moves))])))
     (enabled? all-locations)))
 
-;; next-board : posn board -> board
+;; next-board : move board -> board
 ;; Produces the next board when given a enabled peg.
-(define (next-board peg-posn board)
-  (local ((define new-location (enabled-peg? peg-posn board)))
+(define (next-board new-move board)
     (build-board BOARD-SIZE (lambda (i j)
                    (cond
-                    
-                    [(or (and (= i (posn-x (first new-location))) (= j (posn-y (first new-location))))
-                         (and (= i (posn-x peg-posn)) (= j (posn-y peg-posn)))) 0]
-                    [(and (= i (posn-x (second new-location))) (= j (posn-y (second new-location)))) 1]
-                    [else (board-ref i j board)])))))
+                     [(or (equal? (make-posn i j) (move-from new-move))
+                          (equal? (make-posn i j) (move-over new-move))) 0]
+                     [(equal? (make-posn i j) (move-to new-move)) 1]
+                     [else (board-ref (make-posn i j) board)]))))
 
 ;; TESTS
 (define board (build-board BOARD-SIZE (lambda (i j) (cond
                                                       [(and (= i 2) (= j 2)) 0]
                                                       [else 1]))))
-board
-(next-board (make-posn 0 0) board)
-(next-board (make-posn 2 0) board)
+
+(define a-move (make-move (make-posn 0 0) (make-posn 1 0) (make-posn 2 2)))
+(define another-move (make-move (make-posn 2 0) (make-posn 2 1) (make-posn 2 2)))
+(legal-move? a-move)
+(legal-move? another-move)
+
+(equal? (enabled-peg? (make-posn 0 0) board) (make-move (make-posn 0 0) (make-posn 1 1) (make-posn 2 2)))
+ 
+(next-board a-move board)
+(next-board another-move board)
