@@ -11,7 +11,7 @@ Pomodoros Spent
   - 32.1 (1)
   - 32.2 32.3 (0)
 
-- Exercises: 45
+- Exercises: 47
   - 32.1.1 (1)
   - 32.1.2 (4)
   - 32.1.3 (3)
@@ -25,12 +25,12 @@ Pomodoros Spent
   - 32.2.8 (2)
   - 32.3.1 (0.5)
   - 32.3.2 (7.5)
-  - 32.3.3 (3)
+  - 32.3.3 (5)
 
-**Total: 46**
+**Total: 48**
 
 Select Exercises
 ================
 - [Missionaries and Cannibals] [1](http://htdp.org/2003-09-26/Book/curriculum-Z-H-40.html#node_thm_32.2.1) through [8](http://htdp.org/2003-09-26/Book/curriculum-Z-H-40.html#node_thm_32.2.8) Easily one of the best exercises so far that lets you explore your creative side. Lot of room for exploring and learning how to construct your program. Not so much proud of my solution, but contented about the amount of understanding and knowledge this one lead to.
 
-- [Solitaire] [1](http://htdp.org/2003-09-26/Book/curriculum-Z-H-40.html#node_thm_32.3.1) through [3](http://htdp.org/2003-09-26/Book/curriculum-Z-H-40.html#node_thm_32.3.3) Much more open ended than Missionaries and Cannibals and since the railings around the roads have been taken off, higher chance of veering off into the woods and getting eaten by bears as I did with my solution.
+- [Solitaire] [1](http://htdp.org/2003-09-26/Book/curriculum-Z-H-40.html#node_thm_32.3.1) through [3](http://htdp.org/2003-09-26/Book/curriculum-Z-H-40.html#node_thm_32.3.3) Much more open ended than Missionaries and Cannibals and since the railings around the roads have been taken off, higher chance of veering off into the woods and getting eaten by bears as it did with my solution.
