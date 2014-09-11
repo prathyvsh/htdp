@@ -1,0 +1,43 @@
+(define x 3)
+(define y 5)
+
+(begin (set! x y)
+       (set! y (+ y 2))
+       (set! x 3)
+       (list x y))
+
+(define x 3)
+(define y 5)
+
+(begin (set! x 5)
+       (set! y (+ y 2))
+       (set! x 3)
+       (list x y))
+
+(define x 5)
+(define y 5)
+(begin (void)
+       (set! y (+ 5 2))
+       (set! x 3)
+       (list x y))
+
+(define x 5)
+(define y 7)
+(begin (void)
+       (void)
+       (set! x 3)
+       (list x y))
+
+(define x 3)
+(define y 7)
+(begin (void)
+       (void)
+       (void)
+       (list x y))
+
+(define x 3)
+(define y 7)
+(begin (void)
+       (void)
+       (void)
+       (list 3 7))
