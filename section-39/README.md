@@ -2,7 +2,7 @@ Metadata
 =========
 
 - Start date : 13 September 2014
-- End date : 
+- End date : 19 September 2014
 
 Pomodoros Spent
 ===============
@@ -21,9 +21,9 @@ Pomodoros Spent
 - 39.2.2 (3)
 - 39.2.3 (1)
 - 39.2.4 (1)
-- 39.2.5 (3)
+- 39.2.5 (2)
 
-**Total: 18**
+**Total: 17**
 
 Select Exercises
 ================
