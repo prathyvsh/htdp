@@ -1,19 +1,18 @@
 Learning How to Design Programs
 ===============================
 
-Answers to [HtDP](http://htdp.org/2003-09-26/Book/curriculum-Z-H-1.html)
-exercises.
+Answers to [HtDP](http://htdp.org/2003-09-26/Book/curriculum-Z-H-1.html) exercises.
 
 Also includes open sourced metrics of textual reading and exercise solving times.
 
 #Metadata
 - Start date : 4 June 2014
-- Last update : 20 September 2014
-- **Days elapsed: 108**
+- Last update : 29 September 2014
+- **Days elapsed: 117**
 
 _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 
-##Pomodoro Count: 476
+##Pomodoro Count: 479
 
 - Preface: 2
 - Section 1: 0.5
@@ -57,6 +56,8 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - Section 39 : 17
 - Section 40 : 5
 - Section 41 : 23
+- Section 42 : 2
+- Section 43 : 1
 
 ###Partwise Breakdown
 
@@ -67,7 +68,7 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - Part 5 : 89
 - Part 6 : 69
 - Part 7 : 33
-- Part 8 : 45
+- Part 8 : 47
 
 ###Daily Breakdown (2014)
 
@@ -204,7 +205,7 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - 26 September - 3
 - 27 September - 3
 - 28 September - 2
-- 29 September -
+- 29 September - 3
 - 30 September -
 
 
@@ -227,4 +228,8 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - Week 14: 16
 - Week 15: 19
 - Week 16: 19
-- Week 17: 13
+- Week 17: 15
+
+- TODO
+- Rename all exercises as .rkt
+- Rename files to use dots instead of hyphen
