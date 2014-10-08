@@ -7,12 +7,12 @@ Also includes open sourced metrics of textual reading and exercise solving times
 
 #Metadata
 - Start date : 4 June 2014
-- Last update : 29 September 2014
-- **Days elapsed: 117**
+- Last update : 4 October 2014
+- **Days elapsed: 124**
 
 _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 
-##Pomodoro Count: 479
+##Pomodoro Count: 502
 
 - Preface: 2
 - Section 1: 0.5
@@ -57,7 +57,7 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - Section 40 : 5
 - Section 41 : 23
 - Section 42 : 2
-- Section 43 : 1
+- Section 43 : 24
 
 ###Partwise Breakdown
 
@@ -205,10 +205,24 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - 26 September - 3
 - 27 September - 3
 - 28 September - 2
-- 29 September - 3
-- 30 September -
+- 29 September - 4
+- 30 September - 0
 
+- 1 October - 0
+- 2 October - 0
+- 3 October - 4
+- 4 October - 4
+- 5 October - 2
+- 6 October - 4
+- 7 October - 3
 
+- 8 October - 5
+- 9 October -
+- 10 October -
+- 11 October -
+- 12 October -
+- 13 October -
+- 14 October -
 
 ###Weekly Breakdown
 
@@ -228,7 +242,9 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - Week 14: 16
 - Week 15: 19
 - Week 16: 19
-- Week 17: 15
+- Week 17: 17
+- Week 18: 17
+- Week 19: 5
 
 - TODO
 - Rename all exercises as .rkt
