@@ -8,14 +8,13 @@
 ;; reset :  ->  void
 ;; effect: to set all fields in call-status to false
 (define (reset)
-  (vec-for-all (lambda (v i) (vector-set! v i false)) call-status))
+  (vec-for-all (lambda (v i) false) call-status))
 
 ;; move! : (vectorof number) (vectorof number)  ->  void
 ;; effect: to add the fields of v to the corresponding fields of pos 
 ;; assumption: pos and v have equal length
 (define (move! pos v)
-  (vec-for-all (lambda (vec i) (vector-set! pos i (+ (vector-ref pos i)
-                                                     (vector-ref v i)))) pos))
+  (vec-for-all (lambda (value i) (+ value (vector-ref v i))) pos))
 
 ;; vec-for-all : (N X  ->  void) (vectorof X)  ->  void
 ;; effect: to apply f to all indices and values in vec
@@ -23,7 +22,7 @@
   (local ((define (apply-function-at idx)
             (cond
              [(zero? idx) (void)]
-             [else (begin (f vec (sub1 idx)) (apply-function-at (sub1 idx)))])))
+             [else (begin (vector-set! vec (sub1 idx) (f (vector-ref vec (sub1 idx)) (sub1 idx))) (apply-function-at (sub1 idx)))])))
     (apply-function-at (vector-length vec))))
 
 
@@ -31,7 +30,7 @@
 ;; Effect: Multiplies all the numbers in the given
 ;; vector by the number s
 (define (vector*! von s)
-  (vec-for-all (lambda (v i) (vector-set! v i (* (vector-ref v i) s))) von))
+  (vec-for-all (lambda (value idx) (* value s)) von))
 
 ;; TESTS
 (reset)

@@ -5,14 +5,29 @@ Answers to [HtDP](http://htdp.org/2003-09-26/Book/curriculum-Z-H-1.html) exercis
 
 Also includes open sourced metrics of textual reading and exercise solving times.
 
+Conclusion:
+The project took around 20 weeks to complete at a rate of around 4 pomodoros per day.
+This means an output of 200-250 hours of work to complete the whole book.
+And it's well worth it, if this is one of your first ventures into the land of
+functional programming.
+
+The toughest section personally was the 12.2.4 question that just came out of the blue
+and made me re-evaluate my understanding of recursive procedures so far. There's so much
+that single question made me re-assess. Apart from that all the questions marked in
+each of the sections as interesting ones are worth doing and doing well. My attempts,
+I feel could have been better and more concise if I had them more time.
+
+But regardless, I felt that this book had so much to teach and goes on to demonstrate the
+strength of immutable data structures and recursion. A must read for any FP aspirant.
+
 #Metadata
 - Start date : 4 June 2014
-- Last update : 4 October 2014
-- **Days elapsed: 124**
+- End date : 17 October 2014
+- **Days elapsed: 137**
 
 _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 
-##Pomodoro Count: 502
+##Pomodoro Count: 536
 
 - Preface: 2
 - Section 1: 0.5
@@ -57,7 +72,7 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - Section 40 : 5
 - Section 41 : 23
 - Section 42 : 2
-- Section 43 : 24
+- Section 43 : 58
 
 ###Partwise Breakdown
 
@@ -68,7 +83,7 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - Part 5 : 89
 - Part 6 : 69
 - Part 7 : 33
-- Part 8 : 47
+- Part 8 : 105
 
 ###Daily Breakdown (2014)
 
@@ -217,12 +232,16 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - 7 October - 3
 
 - 8 October - 5
-- 9 October -
-- 10 October -
-- 11 October -
-- 12 October -
-- 13 October -
-- 14 October -
+- 9 October - 6
+- 10 October - 7
+- 11 October - 3
+- 12 October - 0
+- 13 October - 1
+- 14 October - 4
+  
+- 15 October - 2
+- 16 October - 8
+- 17 October - 1
 
 ###Weekly Breakdown
 
@@ -244,8 +263,5 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - Week 16: 19
 - Week 17: 17
 - Week 18: 17
-- Week 19: 5
-
-- TODO
-- Rename all exercises as .rkt
-- Rename files to use dots instead of hyphen
+- Week 19: 26
+- Week 20: 11

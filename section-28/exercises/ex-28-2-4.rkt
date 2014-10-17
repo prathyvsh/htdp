@@ -57,6 +57,7 @@
   (pretty-print board))
 
 ;; placement : N board -> board/false
+;; Places the given number of queens on to the board
 (define (placement n board)
   (cond
    [(= n 0) board]

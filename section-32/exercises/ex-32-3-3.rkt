@@ -5,7 +5,7 @@
 ;; A peg is a boolean
 
 ;; A solitaire board is:
-;;(listof (listof peg))
+;; (vectorof (vectorof peg))
 
 ;; A move is
 ;; (make-move posn posn posn)
@@ -65,8 +65,11 @@
 (define (all-moves peg-posn) (gen-locations peg-posn))
 
 ;; gen-locations: number number number posn -> (listof (listof posn posn))
-;; Generates a table from [start,end] sans it's right diagonal
-;; that is, the location where -x = y.
+;; Generates all posible combinations from [start,end] sans it's right diagonal
+;; that is, the location where -x = y. This is done since in a triangular peg board
+;; a peg can move only towards the hexagonal directions of the adjacent pegs. Never
+;; vertically. This when mapped on to a linear vector of vectors means that the peg
+;; position on the right diagonals will never be enabled.
 (define (gen-locations peg-posn)
   (local ((define row (posn-x peg-posn))
           (define col (posn-y peg-posn))
@@ -96,8 +99,8 @@
           ;; ASSUMPTION: adj and mov are of the same length.
           (define (enabled? moves)
             (cond
-             [(or (empty? moves) (free? peg-posn board)) false]
-             [(jump-space? (first moves) board) (first moves)]
+             [(or (empty? moves) (free? peg-posn board)) empty]
+             [(jump-space? (first moves) board) (cons (first moves) (enabled? (rest moves)))]
              [else (enabled? (rest moves))])))
     (enabled? all-locations)))
 
@@ -150,7 +153,7 @@
 ;; enabled-pegs : board -> (listof posns)
 ;; Gives a list of enabled pegs
 (define (enabled-pegs board)
-  (filter move? (map (lambda (x) (enabled-peg? x board)) (all-peg-posns (vector-length board)))))
+  (filter move? (foldr append empty (map (lambda (x) (enabled-peg? x board)) (all-peg-posns (vector-length board))))))
 
 ;; solitaire : board -> (listof moves)
 ;; Produces the list of moves required to solve the board
@@ -178,8 +181,4 @@
 (define board (build-board BOARD-SIZE (lambda (i j) (cond
                                                        [(and (= i 2) (= j 2)) 0]
                                                        [else 1]))))
-(define simple-board (vector (vector 1)
-                             (vector 0 1)
-                             (vector 0 0 0)))
-
 (solitaire board)

@@ -5,7 +5,7 @@
 ;; A peg is a boolean
 
 ;; A solitaire board is:
-;;(listof (listof peg))
+;; (vectorof (vectorof peg))
 
 ;; A move is
 ;; (make-move posn posn posn)

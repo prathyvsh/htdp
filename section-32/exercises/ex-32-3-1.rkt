@@ -4,7 +4,7 @@
 ;; A peg is a boolean
 
 ;; A solitaire board is:
-;;(listof (listof peg))
+;;(vectorof (vectorof peg))
 
 ;; A move is
 ;; (make-move posn posn posn)
@@ -20,10 +20,8 @@
    [else (vector-append (vector (build-vector size (lambda (x) 1)))
                         (build-board (sub1 size)))]))
 
-(define (board-set val i j board)
-  (cond
-   [(= (board-ref i j)
-;; board-ref : board -> peg
+;; board-ref : number number board -> peg
+;; Refers to a location in the board
 (define (board-ref i j r)
   (vector-ref (vector-ref b i) j))
 
