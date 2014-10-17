@@ -2,23 +2,29 @@ Learning How to Design Programs
 ===============================
 
 Answers to [HtDP](http://htdp.org/2003-09-26/Book/curriculum-Z-H-1.html) exercises.
-
 Also includes open sourced metrics of textual reading and exercise solving times.
 
 Conclusion:
+-----------
 The project took around 20 weeks to complete at a rate of around 4 pomodoros per day.
 This means an output of 200-250 hours of work to complete the whole book.
 And it's well worth it, if this is one of your first ventures into the land of
 functional programming.
 
-The toughest section personally was the 12.2.4 question that just came out of the blue
-and made me re-evaluate my understanding of recursive procedures so far. There's so much
+The toughest section personally was 12 where question 12.2.4 that felt like a bolt out of the blue
+and made me re-evaluate my understanding of recursion learned thus far. There's so much
 that single question made me re-assess. Apart from that all the questions marked in
 each of the sections as interesting ones are worth doing and doing well. My attempts,
-I feel could have been better and more concise if I had them more time.
+I feel could have been better and more concise if I had spent more time on them.
 
-But regardless, I felt that this book had so much to teach and goes on to demonstrate the
-strength of immutable data structures and recursion. A must read for any FP aspirant.
+One of the crucial skills I gained by doing the exercise is to think a bit and sketch some solutions
+down on paper before I started writing any code. I am sure this saved me considerable on contrast
+with my previous approach which was to jump on the keyboard as soon as I finished reading the question.
+A bit of thought on the question and it's implications goes a long way in giving you a head start.
+
+I felt that this book had so much to teach and goes on to demonstrate the
+strength of immutable data structures and recursion. Recommended from my side towards
+any aspirant.
 
 #Metadata
 - Start date : 4 June 2014
