@@ -27,9 +27,9 @@ strength of immutable data structures and recursion. A must read for any FP aspi
 
 _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 
-##Pomodoro Count: 536
+##Pomodoro Count: 540
 
-- Preface: 2
+- Preface and Set up: 2
 - Section 1: 0.5
 - Section 2: 5.5
 - Section 3: 5.5
@@ -73,10 +73,12 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - Section 41 : 23
 - Section 42 : 2
 - Section 43 : 58
+- Epilogue and Clean up: 4
 
 ###Partwise Breakdown
 
-- Part 1 : 48
+- Set up : 2
+- Part 1 : 46
 - Part 2 : 60.5
 - Part 3 : 76.5
 - Part 4 : 55
@@ -84,9 +86,11 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - Part 6 : 69
 - Part 7 : 33
 - Part 8 : 105
+- Clean up : 4
 
 ###Daily Breakdown (2014)
 
+####Week 1
 - 4 June - 2
 - 5 June - 0
 - 6 June - 6
@@ -95,6 +99,7 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - 9 June - 7
 - 10 June - 3
 
+####Week 2
 - 11 June - 0
 - 12 June - 1
 - 13 June - 7
@@ -103,6 +108,7 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - 16 June - 2
 - 17 June - 3
 
+####Week 3
 - 18 June - 1
 - 19 June - 1
 - 20 June - 6
@@ -111,6 +117,7 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - 23 June - 5
 - 24 June - 0
 
+####Week 4
 - 25 June - 4
 - 26 June - 7
 - 27 June - 5
@@ -119,6 +126,7 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - 30 June - 5
 - 1 July - 2
 
+####Week 5
 - 2 July - 3
 - 3 July - 6
 - 4 July - 3
@@ -127,6 +135,7 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - 7 July - 5
 - 8 July - 5
 
+####Week 6
 - 9 July - 2
 - 10 July - 5
 - 11 July - 2
@@ -135,6 +144,7 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - 14 July - 0
 - 15 July - 3
 
+####Week 7
 - 16 July - 0
 - 17 July - 6
 - 18 July - 3
@@ -143,6 +153,7 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - 21 July - 3
 - 22 July - 7
 
+####Week 8
 - 23 July - 6
 - 24 July - 2
 - 25 July - 6
@@ -151,6 +162,7 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - 28 July - 5
 - 29 July - 5
 
+####Week 9
 - 30 July - 2
 - 31 July - 0
 - 1 August - 1
@@ -159,6 +171,7 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - 4 August - 5
 - 5 August - 9
 
+####Week 10
 - 6 August - 6
 - 7 August - 5
 - 8 August - 5
@@ -167,6 +180,7 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - 11 August - 4
 - 12 August - 4
 
+####Week 11
 - 13 August - 6
 - 14 August - 3
 - 15 August - 7
@@ -175,6 +189,7 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - 18 August - 6
 - 19 August - 5
 
+####Week 12
 - 20 August - 4
 - 21 August - 11
 - 22 August - 3
@@ -183,6 +198,7 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - 25 August - 6
 - 26 August - 7
 
+####Week 13
 - 27 August - 8
 - 28 August - 12
 - 29 August - 5
@@ -191,6 +207,7 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - 1 September - 2
 - 2 September - 5
 
+####Week 14
 - 3 September - 4
 - 4 September - 4
 - 5 September - 0
@@ -199,6 +216,7 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - 8 September - 4
 - 9 September - 4
 
+####Week 15
 - 10 September - 3
 - 11 September - 3
 - 12 September - 0
@@ -207,6 +225,7 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - 15 September - 0
 - 16 September - 5
 
+####Week 16
 - 17 September - 0
 - 18 September - 3
 - 19 September - 3
@@ -215,6 +234,7 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - 22 September - 4
 - 23 September - 4
   
+####Week 17
 - 24 September - 5
 - 25 September - 0
 - 26 September - 3
@@ -223,6 +243,7 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - 29 September - 4
 - 30 September - 0
 
+####Week 18
 - 1 October - 0
 - 2 October - 0
 - 3 October - 4
@@ -231,6 +252,7 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - 6 October - 4
 - 7 October - 3
 
+####Week 19
 - 8 October - 5
 - 9 October - 6
 - 10 October - 7
@@ -239,9 +261,10 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - 13 October - 1
 - 14 October - 4
   
-- 15 October - 2
-- 16 October - 8
-- 17 October - 1
+####Week 20
+- 15 October - 3
+- 16 October - 9
+- 17 October - 5
 
 ###Weekly Breakdown
 
@@ -264,4 +287,4 @@ _Metric used for time measurement is [pomodoro](http://pomodorotechnique.com)_
 - Week 17: 17
 - Week 18: 17
 - Week 19: 26
-- Week 20: 11
+- Week 20: 17

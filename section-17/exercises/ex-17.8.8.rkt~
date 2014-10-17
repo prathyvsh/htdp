@@ -1,5 +1,0 @@
-;; tree=? binary-tree binary-tree
-(define (tree=? a-bt another-bt)
-  (cond
-   [(empty? a-bt) (empty? another-bt)]
-   [else ]))

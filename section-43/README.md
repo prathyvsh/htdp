@@ -11,7 +11,7 @@ Pomodoros Spent
 - 43.1 (3)
 - 43.2 43.3 (3)
    
-- Exercises: 47
+- Exercises: 52
 - 43.1.1 (1)
 - 43.1.2 (2.5)
 - 43.1.3 (3.5)
@@ -39,13 +39,18 @@ Pomodoros Spent
 
 Select Exercises
 ================
-[n-averages](http://htdp.org/2003-09-26/Book/curriculum-Z-H-53.html#node_thm_43.1.6) - Not a difficult exercise as the text suggests it to be but definitely worth doing for evaluating mutability vs immutability.
-[name-of-cousins](http://htdp.org/2003-09-26/Book/curriculum-Z-H-53.html#node_thm_43.2.4) - Helps to build up understanding of circular references and extra practice on working with family trees.
-[sequence-of-nodes](http://htdp.org/2003-09-26/Book/curriculum-Z-H-53.html#node_thm_43.2.10) - More hands on experience managing linked lists.
-[n-queens](http://htdp.org/2003-09-26/Book/curriculum-Z-H-53.html#node_thm_43.3.1)
+[N Averages](http://htdp.org/2003-09-26/Book/curriculum-Z-H-53.html#node_thm_43.1.6) - Not a difficult exercise as the text suggests it to be but definitely worth doing for evaluating mutability vs immutability.
+[Name of Cousins](http://htdp.org/2003-09-26/Book/curriculum-Z-H-53.html#node_thm_43.2.4) - Helps to build up understanding of circular references and extra practice on working with family trees.
+[Sequence of Nodes](http://htdp.org/2003-09-26/Book/curriculum-Z-H-53.html#node_thm_43.2.10) - More hands on experience managing linked lists.
+[N Queens](http://htdp.org/2003-09-26/Book/curriculum-Z-H-53.html#node_thm_43.3.1)
 [1](http://htdp.org/2003-09-26/Book/curriculum-Z-H-53.html#node_thm_43.3.1)
 [2](http://htdp.org/2003-09-26/Book/curriculum-Z-H-53.html#node_thm_43.3.2)
 [3](http://htdp.org/2003-09-26/Book/curriculum-Z-H-53.html#node_thm_43.3.3)
 [4](http://htdp.org/2003-09-26/Book/curriculum-Z-H-53.html#node_thm_43.3.4)
 Solving N-Queens with vector mutation with some user interface is building 
+[Peg Solitaire](http://htdp.org/2003-09-26/Book/curriculum-Z-H-53.html#node_thm_43.3.5)
+[1](http://htdp.org/2003-09-26/Book/curriculum-Z-H-53.html#node_thm_43.3.5)
+[2](http://htdp.org/2003-09-26/Book/curriculum-Z-H-53.html#node_thm_43.3.6)
+[3](http://htdp.org/2003-09-26/Book/curriculum-Z-H-53.html#node_thm_43.3.7)
+Solving Peg Solitaire with vector mutation
 

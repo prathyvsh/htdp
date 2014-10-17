@@ -1,8 +1,0 @@
-;; posn=? : posn posn -> boolean
-(define (posn=? a-posn another-posn)
-  (cond
-   [(empty? a-posn) (empty? another-posn)]
-   [(posn? a-posn) (and (symbol=? (posn-x a-posn)
-                                  (posn-x another-posn))
-                        (symbol=? (posn-y a-posn)
-                                  (posn-y another-posn)))]))

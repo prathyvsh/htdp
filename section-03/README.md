@@ -17,7 +17,6 @@ Pomodoros Spent
 
 **Total: 5.5**
 
-
 Select Exercises
 ================
 
