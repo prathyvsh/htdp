@@ -15,7 +15,9 @@ The toughest section personally was 12 where question 12.2.4 that felt like a bo
 and made me re-evaluate my understanding of recursion learned thus far. There's so much
 that single question made me re-assess. Apart from that all the questions marked in
 each of the sections as interesting ones are worth doing and doing well. My attempts,
-I feel could have been better and more concise if I had spent more time on them.
+I feel could have been better and more concise if I had spent more time on them. No
+claims made that all of the answers are foolproof. You are more than welcome to send a pull request
+if you spot any error(s).
 
 One of the crucial skills I gained by doing the exercise is to think a bit and sketch some solutions
 down on paper before I started writing any code. I am sure this saved me considerable on contrast
@@ -24,7 +26,7 @@ A bit of thought on the question and it's implications goes a long way in giving
 
 I felt that this book had so much to teach and goes on to demonstrate the
 strength of immutable data structures and recursion. Recommended from my side towards
-any aspirant.
+any one who is willing to spend their next 10 years in programming.
 
 #Metadata
 - Start date : 4 June 2014
