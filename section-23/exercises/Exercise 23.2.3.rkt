@@ -17,5 +17,5 @@
 ;; TESTS
 (equal? (seq-a-fives 5) (list 8 13 18 23 28))
 
-;; Yes, an arithmetic series can have a sum if the terms are converging
-;; towards a fixed number
+;; No, an arithmetic series can't have a sum
+;; since it doesn't converge to a limit.
